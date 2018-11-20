@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the Bootstrap CDN Subtheme theme.
+
+bootstrap_cdn_subtheme.settings:
+  type: theme_settings
+  label: 'Bootstrap CDN Subtheme settings'

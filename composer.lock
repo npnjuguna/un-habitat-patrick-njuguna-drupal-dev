@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74c4532ede127eeaee83a670c07112b5",
+    "content-hash": "ddeb6847c9e1c9bd944de7123f2d002a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2486,6 +2486,23 @@
             ],
             "description": "Useful scripts for testing multiple sets of Composer dependencies.",
             "time": "2018-08-08T23:37:23+00:00"
+        },
+        {
+            "name": "google/charts",
+            "version": "45",
+            "dist": {
+                "type": "file",
+                "url": "https://www.gstatic.com/charts/loader.js",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "google_charts"
+            }
         },
         {
             "name": "grasmash/expander",

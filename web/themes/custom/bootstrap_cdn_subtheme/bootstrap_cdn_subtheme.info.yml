@@ -1,0 +1,34 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Bootstrap CDN Subtheme'
+description: 'Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.'
+package: 'Bootstrap'
+
+regions:
+  language_switcher: 'Language Switcher'
+  branding: 'Branding'
+  search: 'Search'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  carousel: 'Carousel'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  news: 'News and Stories'
+  videos: 'Videos'
+  featured_reports: 'Featured Reports'
+  latest_reports: 'Latest Reports'
+  flagships_reports: 'Flagship Reports'
+  regional_reports: 'Regional Reports'
+  charts: 'Charts'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'bootstrap_cdn_subtheme/global-styling'
