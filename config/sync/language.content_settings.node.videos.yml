@@ -1,0 +1,11 @@
+uuid: 8a0088dc-1430-4b83-aef5-549254480b2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.videos
+id: node.videos
+target_entity_type_id: node
+target_bundle: videos
+default_langcode: site_default
+language_alterable: false

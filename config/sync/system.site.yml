@@ -1,0 +1,14 @@
+uuid: 0ea7a4f3-832f-4cc5-baab-7c5c050154df
+name: 'UN-Habitat - United Nations Human Settlements Programme'
+mail: njuguna@njuguna.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

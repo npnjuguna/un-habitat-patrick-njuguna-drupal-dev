@@ -1,0 +1,12 @@
+uuid: 6a9dd7a7-009f-4267-8b34-46988b6a1761
+langcode: en
+status: true
+dependencies: {  }
+id: captcha_protected_contact_form
+label: 'Captcha-protected Contact Form'
+recipients:
+  - njuguna@njuguna.com
+reply: ''
+weight: 0
+message: 'Thank you for contacting us'
+redirect: ''

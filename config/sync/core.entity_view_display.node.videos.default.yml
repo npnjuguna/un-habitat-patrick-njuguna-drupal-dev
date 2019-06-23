@@ -1,0 +1,33 @@
+uuid: a6d99380-460f-4c3c-908e-d9f1e95a2606
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.videos.field_video_youtube_link
+    - node.type.videos
+  module:
+    - user
+    - video_embed_field
+id: node.videos.default
+targetEntityType: node
+bundle: videos
+mode: default
+content:
+  field_video_youtube_link:
+    weight: 101
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

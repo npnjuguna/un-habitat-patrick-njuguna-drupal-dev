@@ -1,0 +1,21 @@
+uuid: e85b9061-e83b-4691-ad76-d1af5af6929c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_news_summary
+field_name: field_news_summary
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

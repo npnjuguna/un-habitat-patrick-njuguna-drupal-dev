@@ -1,0 +1,44 @@
+schemas:
+  bootstrap: 8000
+  bootstrap_cdn_subtheme: 8000
+bootstrap_cdn_subtheme_error: 'Where are you trying to go?'
+_core:
+  default_config_hash: FAB2qD7DSLAPAldDsYxPkB4HTUsPDSrM2lJDJzfpeww
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://patrick-njuguna.dd:8083/themes/custom/bootstrap_cdn_subtheme/favicon.ico'
+  use_default: true
+logo:
+  path: 'public://unhabitat-logo.jpg'
+  url: ''
+  use_default: false
+region_wells:
+  language_switcher: ''
+  branding: ''
+  search: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  carousel: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  news: ''
+  videos: ''
+  featured_reports: ''
+  latest_reports: ''
+  flagships_reports: ''
+  regional_reports: ''
+  charts: ''
+  footer: ''
+table_responsive: '-1'
+cdn_provider_import_data: ''
+table: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true

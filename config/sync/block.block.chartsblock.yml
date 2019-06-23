@@ -1,0 +1,20 @@
+uuid: e9ac1224-8369-43fd-8c4c-b1affd7e9c68
+langcode: en
+status: true
+dependencies:
+  module:
+    - chart_block_nodes
+  theme:
+    - bootstrap_cdn_subtheme
+id: chartsblock
+theme: bootstrap_cdn_subtheme
+region: charts
+weight: 0
+provider: null
+plugin: charts_block
+settings:
+  id: charts_block
+  label: 'Count of Nodes per Content Type'
+  provider: chart_block_nodes
+  label_display: visible
+visibility: {  }

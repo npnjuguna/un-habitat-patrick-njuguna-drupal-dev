@@ -1,0 +1,22 @@
+uuid: 6c5fb3c1-240f-4893-90a8-84a8b62dfd6b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_cdn_subtheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bootstrap_cdn_subtheme_messages
+theme: bootstrap_cdn_subtheme
+region: footer
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

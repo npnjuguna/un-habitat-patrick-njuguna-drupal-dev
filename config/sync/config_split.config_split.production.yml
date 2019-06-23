@@ -1,0 +1,15 @@
+uuid: e52c9e0c-d41f-4868-b2e0-d207b2ff8a70
+langcode: en
+status: true
+dependencies: {  }
+id: production
+label: Production
+description: ''
+folder: sites/default/sync-production-split
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

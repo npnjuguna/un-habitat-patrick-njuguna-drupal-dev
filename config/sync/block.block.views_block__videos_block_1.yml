@@ -1,0 +1,24 @@
+uuid: 38e3f3c3-30e5-4325-b9ba-088c5186486b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.videos
+  module:
+    - views
+  theme:
+    - bootstrap_cdn_subtheme
+id: views_block__videos_block_1
+theme: bootstrap_cdn_subtheme
+region: videos
+weight: 0
+provider: null
+plugin: 'views_block:videos-block_1'
+settings:
+  id: 'views_block:videos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

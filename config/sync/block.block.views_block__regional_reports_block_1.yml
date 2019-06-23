@@ -1,0 +1,24 @@
+uuid: 03f64c51-d504-4cc7-830c-0bfe0ebea7c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.regional_reports
+  module:
+    - views
+  theme:
+    - bootstrap_cdn_subtheme
+id: views_block__regional_reports_block_1
+theme: bootstrap_cdn_subtheme
+region: regional_reports
+weight: 0
+provider: null
+plugin: 'views_block:regional_reports-block_1'
+settings:
+  id: 'views_block:regional_reports-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

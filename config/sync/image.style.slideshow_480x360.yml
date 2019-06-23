@@ -1,0 +1,15 @@
+uuid: 3519241a-ed95-43c0-aae0-a7bb62349155
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow_480x360
+label: 'Slideshow 480x360'
+effects:
+  15f07c07-3436-4712-ad06-09ab055956c7:
+    uuid: 15f07c07-3436-4712-ad06-09ab055956c7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 360
+      anchor: center-center

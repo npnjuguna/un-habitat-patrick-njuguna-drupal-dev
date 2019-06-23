@@ -1,0 +1,17 @@
+uuid: ed332288-d4ba-48d4-82f2-93c07ef47d22
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Videos
+type: videos
+description: Videos
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

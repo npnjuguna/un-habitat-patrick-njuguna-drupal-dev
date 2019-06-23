@@ -1,0 +1,24 @@
+uuid: 9f01fc67-4a84-4768-9e4d-9402ba75b428
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_and_stories_listing
+  module:
+    - views
+  theme:
+    - bootstrap_cdn_subtheme
+id: views_block__news_and_stories_listing_block_1
+theme: bootstrap_cdn_subtheme
+region: news
+weight: 0
+provider: null
+plugin: 'views_block:news_and_stories_listing-block_1'
+settings:
+  id: 'views_block:news_and_stories_listing-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

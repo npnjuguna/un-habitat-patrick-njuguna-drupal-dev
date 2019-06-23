@@ -1,0 +1,9 @@
+uuid: 9d5761cb-f666-486c-863f-bd028ad47111
+langcode: zh-hant
+status: true
+dependencies: {  }
+id: zh-hant
+label: 中文
+direction: ltr
+weight: 2
+locked: false

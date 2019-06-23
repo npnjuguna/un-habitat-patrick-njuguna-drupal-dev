@@ -1,0 +1,30 @@
+uuid: 117f89fb-8120-4849-a48c-7d0bc3620c32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_cdn_subtheme
+id: views_block__slideshow_block_1
+theme: bootstrap_cdn_subtheme
+region: carousel
+weight: 0
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

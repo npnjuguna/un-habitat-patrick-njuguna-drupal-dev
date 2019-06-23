@@ -1,0 +1,22 @@
+uuid: cd6efdbc-5542-40ea-9d79-9898b65d9f86
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - bootstrap_cdn_subtheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: bootstrap_cdn_subtheme_help
+theme: bootstrap_cdn_subtheme
+region: footer
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
